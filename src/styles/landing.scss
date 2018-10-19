@@ -1,0 +1,8 @@
+.viewport {
+    height: 95vh;
+}
+
+.landing-container {
+    @extend .rowflex;
+    @extend .m-container;
+}

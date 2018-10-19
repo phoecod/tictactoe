@@ -1,0 +1,25 @@
+.player-title {
+    margin-bottom: $s-size;
+}
+
+.btn-container {
+    @include rowFlex();
+    margin: $s-size;
+}
+
+.player-container {
+    @extend .s-container;
+    color: white;
+}
+
+.shape-container {
+    margin-top: $s-size;
+    display: flex;
+    >select {
+        margin-left: $xs-size;
+    }
+}
+.error {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.game-container {
+    @extend .colflex;
+}
+
+.win {
+    background: $green;
+  }
+
+.marked { 
+    cursor: none !important;
+    @extend .rowflex;
+    font-size: 40px;
+}
+
+.victory-icon {
+    height: 60px;
+}
+
+.board-row {
+    @include rowFlex();
+  }
+  
+.board-container {
+@include rowFlex();
+justify-content: space-evenly;
+margin: 20px;
+}

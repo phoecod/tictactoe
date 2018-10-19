@@ -1,0 +1,18 @@
+.name {
+    margin-left: $m-size;
+    padding: 0 5px;
+    border: none;
+    background: grey;
+    width: 90px;
+    color: white;
+}
+
+.info-container {
+    @extend .s-container;
+    font-weight: bold;
+}
+
+.highlight {
+    background: white;
+    color: black;
+}

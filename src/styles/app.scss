@@ -1,0 +1,74 @@
+@import './base.scss';
+@import './new_game_modal.scss';
+@import './game_page.scss';
+@import './credits.scss';
+@import './modals.scss';
+@import './landing.scss';
+@import './game_info.scss';
+
+
+
+
+.App {
+  background: #252323;
+  color:white;
+  font-size: 14px;
+}
+
+.spacing {
+  margin: 15px 0;
+}
+
+.btn {
+  @include button();
+  text-decoration: none;
+}
+
+.modal-container {
+    background: $blackfade;
+    max-width: 300px;
+    outline: none;
+    text-align: center;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  padding: $xs-size;
+  margin: $xs-size;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.header-container {
+  @include container($m-size);
+  @include rowFlex();
+}
+
+.logout-icon {
+  height: 13px;
+  float: right;
+  margin-top: 2px;
+  padding-right: 20px;
+}
+
+.m-container {
+  @include container($m-size);
+}
+
+.s-container {
+  @include container($s-size);
+}
+
+.rowflex {
+  @include rowFlex();
+}
+
+.colflex {
+  @include colFlex();
+}
+
+.xs-margin {
+  margin: 5px 0;
+}
+

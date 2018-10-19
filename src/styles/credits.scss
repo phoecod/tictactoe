@@ -1,0 +1,11 @@
+.credits-container {
+    @extend .m-container;
+    @extend .colflex;
+    text-align: center;
+}
+
+.credits-btn {
+    @extend .s-container;
+    @extend .rowflex;
+    text-decoration: none;
+}

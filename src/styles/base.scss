@@ -1,0 +1,42 @@
+// variables
+$xs-size: 5px;
+$s-size: 10px;
+$m-size: 20px;
+$l-size: 30px;
+
+// colors
+
+$blackfade: #4b4949;
+$lightgreen: #95e6cf;
+$green: #057e05;
+
+// mixins
+
+@mixin rowFlex() {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@mixin colFlex() {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@mixin container($size) {
+    margin: $size;
+    padding: $size;
+}
+
+@mixin button() {
+    min-width: 100px;
+    min-height: 30px;
+    margin: 0 $s-size;
+    background: $lightgreen;
+    border-radius: $s-size;
+    font-weight: 600;
+    padding: $s-size 0;
+    cursor: pointer;
+}
